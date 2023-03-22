@@ -1,0 +1,30 @@
+server:
+  port: 6666
+
+mytest2: 孟欣
+
+spring:
+  datasource:
+    url: jdbc://127.0.0.1:3306/java105?characterEncoding=utf8
+    username: root
+    password: mysql
+
+
+#定义字符串
+myString1: 你好1
+myString2: '你好2'
+mystring3: "你好3"
+
+#定义对象
+student:
+  id: 1
+  name: java
+  age: 18
+
+teacher: {id: 1,name: c,age: 19}
+
+dbtypes:
+  name:
+    - mysql1
+    - mysql2
+    - mysql3
